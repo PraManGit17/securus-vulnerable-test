@@ -1,0 +1,7 @@
+services:
+  vulnerable-test:
+    build: .
+    network_mode: host
+    privileged: true
+    ports:
+      - "3001:3001"
